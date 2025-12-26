@@ -183,15 +183,17 @@ body {
         align-items: center;
         gap: 0;
         padding: 1rem 3rem;
+        margin-bottom: 0;
     }
     .main-content {
         height: auto;
+        min-height: auto;
         margin-bottom: 0;
         padding-bottom: 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         gap: 1rem;
     }
     .content h1 {
@@ -202,9 +204,12 @@ body {
         max-width: 500px;
     }
     .img img {
+        padding-top: 0;
+        margin-top: 0;
         width: 100%;
-        height: 500px;
+        height: 450px;
         display: block;
+        object-fit: cover;
     }
     .footer {
         height: auto;
